@@ -1,0 +1,172 @@
+{
+  "model": "CatBoost",
+  "best_params": {
+    "iterations": 400.0,
+    "depth": 6.0,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 5.0
+  },
+  "cv_default": {
+    "roc_auc": [
+      0.7737093228969874,
+      0.013647792505695566
+    ],
+    "pr_auc": [
+      0.32518124170090984,
+      0.032612175783897586
+    ],
+    "brier": [
+      0.06434591755048888,
+      0.0015944199341493984
+    ]
+  },
+  "cv_tuned": {
+    "roc_auc": [
+      0.7873002030202378,
+      0.015091372488786236
+    ],
+    "pr_auc": [
+      0.3449100592037105,
+      0.0313037702391771
+    ],
+    "brier": [
+      0.06329070652669547,
+      0.0012703258626894415
+    ]
+  },
+  "holdout": {
+    "roc_auc": 0.7762862897096822,
+    "pr_auc": 0.33898806579892077,
+    "brier_raw": 0.06328818724046621,
+    "brier_isotonic": 0.0634757389373133,
+    "calib_slope_raw": 0.9510019139520073,
+    "calib_intercept_raw": -0.10705875949477077,
+    "calib_slope_isotonic": 0.8882817850195684,
+    "calib_intercept_isotonic": -0.2365772215765416,
+    "threshold_youden": 0.07930781788201018,
+    "threshold_screen": 0.04210584049693055,
+    "youden": {
+      "sensitivity": 0.671875,
+      "specificity": 0.7761057911536707,
+      "PPV": 0.20806451612903226,
+      "NPV": 0.9643059490084985
+    },
+    "screening": {
+      "sensitivity": 0.8020833333333334,
+      "specificity": 0.538531691746466,
+      "PPV": 0.1320754716981132,
+      "NPV": 0.9688269073010665
+    }
+  },
+  "subgroups": [
+    {
+      "subgroup": "Sex: Male",
+      "n": 1070,
+      "events": 83,
+      "ROC-AUC": 0.8,
+      "mean_pred": 0.0775,
+      "observed": 0.0776
+    },
+    {
+      "subgroup": "Sex: Female",
+      "n": 1315,
+      "events": 109,
+      "ROC-AUC": 0.756,
+      "mean_pred": 0.0839,
+      "observed": 0.0829
+    },
+    {
+      "subgroup": "Residence: Rural",
+      "n": 1579,
+      "events": 134,
+      "ROC-AUC": 0.7613,
+      "mean_pred": 0.0845,
+      "observed": 0.0849
+    },
+    {
+      "subgroup": "Residence: Urban",
+      "n": 806,
+      "events": 58,
+      "ROC-AUC": 0.8079,
+      "mean_pred": 0.0743,
+      "observed": 0.072
+    }
+  ],
+  "perm_importance_top15": [
+    {
+      "feature": "age_years",
+      "importance": 0.14139,
+      "sd": 0.01537
+    },
+    {
+      "feature": "prior_stroke",
+      "importance": 0.00524,
+      "sd": 0.00244
+    },
+    {
+      "feature": "gds15_score",
+      "importance": 0.00428,
+      "sd": 0.00218
+    },
+    {
+      "feature": "hearing_difficulty",
+      "importance": 0.00426,
+      "sd": 0.00141
+    },
+    {
+      "feature": "lives_alone",
+      "importance": 0.0041,
+      "sd": 0.00195
+    },
+    {
+      "feature": "hypertension_dx",
+      "importance": 0.00387,
+      "sd": 0.00225
+    },
+    {
+      "feature": "family_history_dementia",
+      "importance": 0.00316,
+      "sd": 0.00208
+    },
+    {
+      "feature": "diastolic_bp_mmhg",
+      "importance": 0.00289,
+      "sd": 0.00175
+    },
+    {
+      "feature": "vision_difficulty",
+      "importance": 0.00257,
+      "sd": 0.00276
+    },
+    {
+      "feature": "education_years",
+      "importance": 0.00173,
+      "sd": 0.00118
+    },
+    {
+      "feature": "systolic_bp_mmhg",
+      "importance": 0.00132,
+      "sd": 0.00152
+    },
+    {
+      "feature": "province",
+      "importance": 0.0013,
+      "sd": 0.0007
+    },
+    {
+      "feature": "fruit_veg_servings_per_day",
+      "importance": 0.00109,
+      "sd": 0.00082
+    },
+    {
+      "feature": "diabetes_dx",
+      "importance": 0.00104,
+      "sd": 0.00122
+    },
+    {
+      "feature": "takes_bp_medication",
+      "importance": 0.00079,
+      "sd": 0.00038
+    }
+  ]
+}

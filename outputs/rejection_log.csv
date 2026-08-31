@@ -1,0 +1,3 @@
+reason,n_rows
+"impossible age (>110, e.g. 999/160) — rejection log",56
+protocol violation: age < 60 at interview,20
