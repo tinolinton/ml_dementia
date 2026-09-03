@@ -1,0 +1,7 @@
+,value
+Δ AUC (LSTM − DNN),0.0075
+bootstrap CI low,0.0004
+bootstrap CI high,0.0145
+DeLong z,2.0602
+DeLong p (two-sided),0.0394
+bootstrap p (two-sided),0.041

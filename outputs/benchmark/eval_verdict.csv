@@ -1,0 +1,13 @@
+criterion,LSTM,DNN,winner
+Hold-out ROC-AUC,0.8918,0.8843,LSTM
+Hold-out PR-AUC,0.8216,0.8119,LSTM
+Brier (isotonic),0.1184,0.1239,LSTM
+Log-loss (raw),0.3848,0.3902,LSTM
+MCC @ Youden,0.621,0.5878,LSTM
+Balanced accuracy @ Youden,0.8167,0.8044,LSTM
+Calibration |slope − 1| (raw),0.1859,0.0665,DNN
+ECE (raw),0.0349,0.0147,DNN
+Sensitivity @ screening,0.8008,0.8008,=
+Specificity @ screening,0.8253,0.8047,LSTM
+Trainable parameters,72257.0,14849.0,DNN
+Final-fit seconds,11.8,10.0,DNN

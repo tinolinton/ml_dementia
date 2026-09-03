@@ -1,0 +1,8 @@
+,value
+events up-classified (LSTM>DNN),55.0
+events down-classified,64.0
+non-events up-classified,81.0
+non-events down-classified,156.0
+categorical NRI @ Youden,0.0257
+continuous NRI,0.3385
+IDI,0.0584

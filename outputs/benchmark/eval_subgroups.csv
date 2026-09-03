@@ -1,0 +1,9 @@
+model,subgroup,n,events,ROC-AUC,mean_pred,observed
+LSTM,Sex: Female,1862,663,0.887,0.372,0.356
+LSTM,Sex: Male,1384,391,0.895,0.288,0.282
+LSTM,Residence: Rural,2156,705,0.892,0.345,0.327
+LSTM,Residence: Urban,1090,349,0.892,0.318,0.32
+DNN,Sex: Female,1862,663,0.876,0.348,0.356
+DNN,Sex: Male,1384,391,0.892,0.276,0.282
+DNN,Residence: Rural,2156,705,0.885,0.321,0.327
+DNN,Residence: Urban,1090,349,0.882,0.31,0.32

@@ -1,0 +1,3 @@
+,trainable params,device,final-fit seconds,seconds / epoch,checkpoint (+ .md5),best 3-fold search AUC,search AUC spread (top5)
+LSTM,72257,cuda,11.8,0.37,outputs/checkpoints/lstm_dementia_screening.pt,0.8813,0.0032
+DNN,14849,cuda,10.0,0.2,outputs/checkpoints/dnn_dementia_screening.pt,0.8772,0.0041

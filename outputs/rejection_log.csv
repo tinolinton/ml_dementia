@@ -1,3 +1,4 @@
 reason,n_rows
-"impossible age (>110, e.g. 999/160) — rejection log",56
-protocol violation: age < 60 at interview,20
+age missing (incl. sentinel-corrupted) — eligibility unverifiable,84
+"impossible age (>110, e.g. 999/160) — rejection log",62
+protocol violation: age < 60 at interview,31
