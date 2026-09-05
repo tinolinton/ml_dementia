@@ -55,7 +55,7 @@
       "batch_size": 256,
       "cv_auc": 0.8772,
       "cv_sd": 0.0047,
-      "seconds": 17.3
+      "seconds": 31.4
     },
     {
       "config": 1,
@@ -69,7 +69,7 @@
       "batch_size": 512,
       "cv_auc": 0.8752,
       "cv_sd": 0.005,
-      "seconds": 11.9
+      "seconds": 23.1
     },
     {
       "config": 8,
@@ -84,7 +84,7 @@
       "batch_size": 256,
       "cv_auc": 0.8738,
       "cv_sd": 0.0035,
-      "seconds": 40.4
+      "seconds": 43.2
     },
     {
       "config": 11,
@@ -98,7 +98,7 @@
       "batch_size": 512,
       "cv_auc": 0.8731,
       "cv_sd": 0.0051,
-      "seconds": 10.4
+      "seconds": 10.8
     },
     {
       "config": 12,
@@ -112,7 +112,7 @@
       "batch_size": 256,
       "cv_auc": 0.8731,
       "cv_sd": 0.006,
-      "seconds": 29.9
+      "seconds": 52.9
     }
   ],
   "convergence": {
@@ -120,7 +120,7 @@
     "best_epoch": 42,
     "stopped_epoch": 50,
     "early_stopped": true,
-    "fit_seconds": 10.0
+    "fit_seconds": 19.4
   },
   "history": {
     "epoch": [
@@ -283,7 +283,7 @@
     "best_epoch": 42,
     "stopped_epoch": 50,
     "early_stopped": true,
-    "fit_seconds": 10.0
+    "fit_seconds": 19.4
   },
   "holdout": {
     "roc_auc": 0.8842859665646339,
